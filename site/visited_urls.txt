@@ -1,0 +1,7 @@
+http://wp.pl
+http://wp.pl
+http://wp.pl
+http://wp.pl
+http://wp.pl
+http://127.0.0.1:8888/
+https://developer.chrome.com/extensions/xhr

@@ -4,15 +4,15 @@
     "name": "Grammy",
     "description": "GetResponse Grammy plugin",
     "version": "0.1",
-    //"icons": { "128": "icon.png" },
+    "icons": { "32": "assets/icon_off.png" },
     "browser_action": {
-        "default_icon": "icon.png",
-        "default_title": "Grammy plugin"
-        //"default_popup": "popup.html"
+        //"default_icon": "icon.png",
+        //"default_title": "Grammy plugin",
+        "default_popup": "popup.html"
     },
-    "web_accessible_resources": [
-        "popup.html"
-    ],
+    //"web_accessible_resources": [
+//        "popup.html"
+    //],
     "background": {
         "scripts": [
             "background.js"
@@ -22,6 +22,7 @@
     "permissions": [
         "tabs",
         "activeTab",
-        "http://127.0.0.1:8888/*"
+        "http://127.0.0.1:8888/*",
+        "storage"
     ]
 }
